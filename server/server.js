@@ -15,8 +15,17 @@ db.once('open', () =>
 
 app.use(express.json());
 
+// Define router for restaurants
 const restaurantRouter = require('./routes/restaurants');
 app.use('/api/restaurants', restaurantRouter);
+
+// Define router for menus
+const menuRouter = require('./routes/menu');
+app.use('/api/menu', menuRouter);
+
+// Define router for menu items
+const menuItemRouter = require('./routes/menuItem');
+app.use('/api/menu_items', menuItemRouter);
 
 let port = process.env.PORT;
 app.listen(port, () => {
