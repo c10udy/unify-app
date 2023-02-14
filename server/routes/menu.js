@@ -67,7 +67,7 @@ async function getMenu(req, res, next) {
     if (menu == null) {
       return res
         .status(404)
-        .json({ message: 'Cannot find the restaurant requested' });
+        .json({ message: 'Cannot find the menu requested' });
     }
   } catch (error) {
     return res.status(500).json({ message: error.message });

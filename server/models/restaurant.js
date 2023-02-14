@@ -18,6 +18,12 @@ const restaurantSchema = new mongoose.Schema({
     type: String,
     require: true,
   },
+  email: {
+    type: String,
+  },
+  phone: {
+    type: String,
+  },
 });
 
 module.exports = mongoose.model('Restaurant', restaurantSchema);

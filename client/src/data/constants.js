@@ -67,7 +67,7 @@ export const unifyDescription = [
 export const aboutUnify = [
   `Currently, Allergen and Nutrition menus are confined to the
   restaurant's websites and may be difficult to access or read for the
-  average user. Frustrated by this, Founder of Unify, Eli Weyer
+  average user. Frustrated by this, Founder of Unify, (Author)
   created Unify as a school project to make important Allergen and
   Nutrition information more accessible. Unify is an all accessible web
   application, able to provide fast access to allergen and nutrition
@@ -117,8 +117,8 @@ export const footerLinks = [
     title: 'Subscribe',
   },
   {
-    id: 'news_letter',
-    title: 'News Letter',
+    id: 'newsletter',
+    title: 'Newsletter',
   },
 ];
 
