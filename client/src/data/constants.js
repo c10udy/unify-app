@@ -98,6 +98,22 @@ export const vision = [
    informed decisions before entering a restaurant.`,
 ];
 
+// Features Section
+export const featuresText = [
+  {
+    text: `Multiple Restaurant's Menus`,
+  },
+  {
+    text: `Filter for menu items NOT containing an allergen`,
+  },
+  {
+    text: `Ingredient lists for menu items`,
+  },
+  {
+    text: `Nutrition labels for menu items`,
+  },
+];
+
 // Footer
 export const footerLinks = [
   {

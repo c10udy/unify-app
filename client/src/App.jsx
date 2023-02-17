@@ -6,8 +6,10 @@ import {
   Home,
   Menu,
   itemInformation,
+  Product,
   Restaurants,
-  Contact,
+  Newsletter,
+  Subscribe,
   Error,
 } from './pages/index';
 
@@ -19,8 +21,10 @@ const App = () => (
         <Route path="/" element={<Home />} />
         <Route path="/restaurants" element={<Restaurants />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="/itemInformation" element={<itemInformation />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/item_information" element={<itemInformation />} />
+        <Route path="/newsletter" element={<Newsletter />} />
+        <Route path="/subscribe" element={<Subscribe />} />
+        <Route path="/product" element={<Product />} />
         <Route path="/error" element={<Error />} />
       </Routes>
       <Footer />
