@@ -10,9 +10,9 @@ const About = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div id="about" className="relative lg:flex p-6">
+    <div id="about" className="relative lg:flex lg:p-6">
       <div
-        className="p-6 text-center lg:w-1/2 self-center"
+        className="lg:p-6 text-center lg:w-1/2 self-center"
         data-aos="fade-up"
         data-aos-delay="500"
       >
@@ -25,7 +25,7 @@ const About = () => {
       <div className="p-6 flex justify-center lg:w-1/2">
         <img
           src={about_illustration}
-          className="overflow-hidden w-[528px] p-10 drop-shadow-xl bg-purple-700 rounded-3xl"
+          className="overflow-hidden w-[528px] p-10 drop-shadow-xl bg-stone-300 rounded-3xl"
           data-aos="fade-up"
           data-aos-delay="750"
         />

@@ -1,4 +1,5 @@
 import about_illustration from './about_illustration.svg';
+import features_illustration from './features_illustration.svg';
 import close from './close.svg';
 import menu from './menu.svg';
 import logo from './unifylogo.png';
@@ -9,6 +10,7 @@ import tacobellLogo from './tacobellLogo.png';
 import chickfilaLogo from './chickfilaLogo.png';
 
 export {
+  features_illustration,
   about_illustration,
   close,
   menu,

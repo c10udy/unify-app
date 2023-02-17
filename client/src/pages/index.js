@@ -2,7 +2,18 @@ import Home from './Home';
 import itemInformation from './itemInformation';
 import Restaurants from './Restaurants';
 import Menu from './Menu';
-import Contact from './Contact';
+import Newsletter from './Newsletter';
+import Subscribe from './Subscribe';
+import Product from './Product';
 import Error from './Error';
 
-export { Home, itemInformation, Restaurants, Menu, Contact, Error };
+export {
+  Home,
+  itemInformation,
+  Restaurants,
+  Menu,
+  Newsletter,
+  Subscribe,
+  Product,
+  Error,
+};

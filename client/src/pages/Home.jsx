@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Hero, Testimonials, About, Vision } from '../components';
+import { Hero, Testimonials, About, Vision, Features } from '../components';
 
 const Home = () => {
   return (
@@ -9,8 +9,8 @@ const Home = () => {
       <Testimonials />
       <About />
       <Vision />
+      <Features />
       {/*
-      Features
       Get Started/CTA
       Become a Partner
       News Letter */}

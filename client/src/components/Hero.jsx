@@ -52,7 +52,7 @@ const Hero = () => {
                   data-aos="fade-up"
                   data-aos-delay="750"
                 >
-                  Restaurants
+                  Get Started
                 </a>
                 <a
                   href="#"
