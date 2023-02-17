@@ -1,11 +1,3 @@
 {
-  "routes": [
-    { "src": "/", "dest": "/" },
-    { "src": "/restaurants", "dest": "/restaurants" },
-    { "src": "/subscribe", "dest": "/subscribe" },
-    { "src": "/newsletter", "dest": "/newsletter" },
-    { "src": "/product", "dest": "/product" },
-    { "src": "/menu", "dest": "/menu" },
-    { "src": "/item_information", "dest": "/item_information" }
-  ]
+  "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
 }
