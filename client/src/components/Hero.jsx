@@ -55,7 +55,7 @@ const Hero = () => {
                   Get Started
                 </a>
                 <a
-                  href="#"
+                  href={(Link.to = '/product')}
                   className="text-base leading-7 font-semibold text-gray-900 hover:text-gray-600"
                   data-aos="fade-up"
                   data-aos-delay="750"

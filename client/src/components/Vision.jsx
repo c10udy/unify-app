@@ -10,11 +10,10 @@ const Vision = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className="relative lg:p-6">
+    <div className="relative md:p-6">
       <div
-        className="lg:p-6 text-center justify-center items-center"
+        className="md:p-6 text-center justify-center items-center"
         data-aos="fade-up"
-        data-aos-delay="500"
       >
         <h1 className="text-gray-900 text-4xl p-6 tracking-tight font-bold uppercase">
           The <span className="text-purple-700">Vision</span>

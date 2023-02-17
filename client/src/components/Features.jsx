@@ -10,21 +10,15 @@ const Features = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div
-      id="about"
-      className="relative lg:flex lg:p-6"
-      data-aos="fade-up"
-      data-aos-delay="500"
-    >
+    <div id="about" className="relative lg:flex lg:p-6">
       <div className="p-6 flex justify-center lg:w-1/2">
         <img
           src={features_illustration}
           className="overflow-hidden w-[528px] p-10 drop-shadow-xl bg-stone-300  rounded-3xl"
           data-aos="fade-up"
-          data-aos-delay="750"
         />
       </div>
-      <div className="p-6 text-center lg:w-1/2 self-center">
+      <div className="p-6 text-center lg:w-1/2 self-center" data-aos="fade-up">
         <h1 className="text-gray-900 text-4xl p-6 tracking-tight font-bold uppercase">
           The <span className="text-purple-700">Features</span>
         </h1>
